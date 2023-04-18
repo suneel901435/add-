@@ -1,0 +1,21 @@
+a=int(input())
+b=int(input())
+c=int(input())
+if a==b:
+  print("a and b are equal")  
+  if a>c:
+    print("a is large")
+  else:
+    print("c is large")
+elif b==c:
+  print("b and c are equal")
+  if b>a:
+    print("b is large")
+   else:
+    print("a is large")
+else:
+  print("a and c are equal")
+  if(a>b):
+    print("a is large")
+  else:
+    print("b is large")
