@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=int(input())
+if a>b AND a>c:
+  print("a is large")
+elif b>c:
+  print("b is large")
+else:
+   print("c is large")
